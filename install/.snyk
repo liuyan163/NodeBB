@@ -1,0 +1,80 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - eslint > table > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - sitemap > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nodebb-plugin-emoji > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - lint-staged > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - html-to-text > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - eslint-plugin-import > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - eslint > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - benchpressjs > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nodebb-plugin-mentions > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - benchpressjs > babel-types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - benchpressjs > babel-generator > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - benchpressjs > node-cache > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nodebb-plugin-emoji > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - socket.io-adapter-postgres > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nodebb-plugin-markdown > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - archiver > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - '@commitlint/cli > @commitlint/lint > lodash':
+        patched: '2019-07-04T04:11:21.019Z'
+    - winston > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nodebb-plugin-dbsearch > async > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - '@commitlint/cli > @commitlint/load > @commitlint/resolve-extends > lodash':
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - benchpressjs > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nyc > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2019-07-04T04:11:21.019Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/rules > @commitlint/ensure > lodash':
+        patched: '2019-07-04T04:11:21.019Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T04:11:21.019Z'
